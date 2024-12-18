@@ -1,0 +1,204 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 166px;
+}
+
+nav{
+    height: 180px;
+}
+
+article {
+}
+
+.contenidor { 
+    width: 1716px;
+    margin: 0 auto;
+    overflow:hidden;
+    text-align: center;
+
+
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+img{
+    width: 536px;
+    height: 536px;
+    
+}
+
+.comentaris{
+    height: 84px;
+    overflow: hidden;
+}
+
+.cercle{
+    width: 80px;
+    height: 80px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px orangered;
+
+    background-image: url(../images/1.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    opacity: 100%;
+}
+
+.cercle:first-child:after{
+    content: "";
+    display: block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    border: solid white;
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.cercle:hover{
+    opacity: 80%;
+}
+
+.fotoautor{
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/kym\ logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: solid 2px white;
+    box-shadow: 0px 0px 15px orangered;
+    margin: 10px;
+    float:left;
+}
+
+.autor{
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.moment{
+    width: 268px;
+    color: gainsboro;
+    font-size: 13px;
+}
+
+.esquerra{
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+.dreta{
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+.comentari{
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 180px;
+    float: left;
+}
+
+.like{
+    width: 28px;
+    height: 28px;
+    float: left;
+
+}
+
+.mes{
+    width: 40px;
+    height: 40px;
+    float: left;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.home{
+    width: 290px;
+    height: 80px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../images/ifpagram_09.jpg);
+    margin: 50px 0 0 0;
+    display: inline-block;
+
+
+}
+
+.menu{
+    width: 290px;
+    height: 45px;
+    margin: 50px 460px 0 460px;
+    display: inline-block;
+    background-color: ;
+}
+
+.menu li{
+        width: 32px;
+        height: 32px;
+        background-color: yellow;
+        margin: 3px 8px;
+        display: inline-block;
+        background-image: url(../images/ifpagram_11.jpg);
+
+}
+
+.menu .inici{
+    background-position: -7px -8px;  
+}
+
+.menu .cerca{
+    background-position: -91px -8px;  
+}
+
+.menu .reels{
+    background-position: -175px -6px;  
+}
+
+.menu .favorits{
+    background-position: -259px -7px;  
+}
+
+.menu .perfil{
+    width: 208px;
+    height: 45px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+    
+
+.dm{
+    width: 160px;
+    height: 93px;
+    margin: 3px 8px;
+    margin: -80px -700px 0 100px;
+    display: inline-block;
+    background-image: url(../images/images/ifpagram_56_07.jpg);
+}
