@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+img {
+    width: 10%;
+}
+
+body{
+    text-align: center;
+        background-image: linear-gradient(
+          315deg,
+          hsl(0deg 100% 49%) 0%,
+          hsl(357deg 100% 49%) 9%,
+          hsl(354deg 100% 49%) 14%,
+          hsl(351deg 100% 49%) 18%,
+          hsl(348deg 100% 48%) 20%,
+          hsl(345deg 100% 48%) 22%,
+          hsl(342deg 100% 48%) 24%,
+          hsl(339deg 100% 48%) 26%,
+          hsl(336deg 100% 48%) 29%,
+          hsl(333deg 100% 47%) 31%,
+          hsl(330deg 100% 47%) 34%,
+          hsl(327deg 100% 47%) 38%,
+          hsl(324deg 100% 47%) 41%,
+          hsl(314deg 99% 48%) 45%,
+          hsl(304deg 98% 48%) 49%,
+          hsl(295deg 98% 49%) 54%,
+          hsl(285deg 97% 50%) 58%,
+          hsl(275deg 96% 50%) 63%,
+          hsl(265deg 95% 51%) 68%,
+          hsl(256deg 94% 52%) 73%,
+          hsl(246deg 93% 52%) 78%,
+          hsl(236deg 93% 53%) 83%,
+          hsl(227deg 92% 54%) 89%,
+          hsl(217deg 91% 55%) 94%,
+          hsl(207deg 90% 55%) 100%
+        );
+      };
+
